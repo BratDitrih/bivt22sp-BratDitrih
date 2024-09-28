@@ -1,5 +1,6 @@
 from setup import add_src_path
 add_src_path()
-from src.scm_game import start_game
+from src.cli import start_scm_game
 
-start_game()
+if __name__ == "__main__":
+    start_scm_game()
